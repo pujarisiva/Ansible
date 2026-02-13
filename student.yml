@@ -1,0 +1,27 @@
+- name: "Siva"
+  DOB: "1999-01-01"
+  mobilenumber: 1234567
+  address:
+  - flatnumber: 102
+    street: Gandhi nagar
+    city: HYD
+    type: current
+
+  - flatnumber: 102
+    street: Gandhi nagar
+    city: HYD  
+    type: perm
+
+- name: "Suresh"
+  DOB: "1999-03-01"
+  mobilenumber: 12334567
+  address:
+  - flatnumber: 103
+    street: Gandhi nagar
+    city: HYD
+    type: current
+
+  - flatnumber: 102
+    street: Gandhi nagar
+    city: HYD  
+    type: perm
