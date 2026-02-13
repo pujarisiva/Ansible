@@ -4,7 +4,7 @@
   vars:
     COURSE: "DevOps with AWS"
     DURATION: "140HRS"
-    TRAINER: "SIVA"
+    TRAINER: "SIVAP"
   tasks:
   - name: print variables
     vars:
