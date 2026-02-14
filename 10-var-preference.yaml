@@ -9,8 +9,8 @@
   # - name: NAME
   #   prompt: please enter name
   #   private: false
-  tasks:
-  - name: print name
+  # tasks:
+  # - name: print name
     # vars: 
     #  NAME: "ANsible from TASk"  
     ansible.builtin.debug:
