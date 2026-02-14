@@ -11,11 +11,13 @@
     private: false
   tasks:
   - name: print name
-    vars: 
-     NAME: "ANsible from TASk"  
+    # vars: 
+    #  NAME: "ANsible from TASk"  
     ansible.builtin.debug:
      msg: "Hi {{NAME}}"    
 
 
 # Varaiable preference Output
-#
+# 1. Arguments Variable
+# 2. TASk Variable
+# 3. 
