@@ -9,12 +9,12 @@
   # - name: NAME
   #   prompt: please enter name
   #   private: false
-  # tasks:
-  # - name: print name
+  tasks:
+  - name: print name
     # vars: 
-    #  NAME: "ANsible from TASk"  
+    #  NAME: "ANsible from TASk "  
     ansible.builtin.debug:
-     msg: "Hi {{NAME}}"    
+      msg: "Hi {{NAME}}"    
 
 
 # Varaiable preference Output
@@ -23,4 +23,4 @@
 # 3. File Variable
 # 4. Prompt Variable
 # 5. Play level variable
-# 6. 
+# 6. Inventory variable
