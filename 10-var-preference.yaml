@@ -1,0 +1,21 @@
+- name: Variable preference
+  hosts: local
+  connection: local
+  vars:
+    NAME: "Ansible from PLAY-level"
+  vars_file:
+  - course.yaml
+  vars_prompt:
+  - name: NAME
+    prompt: please enter name
+    private: false
+  tasks:
+  - name: print name
+    vars: 
+     NAME: "ANsible from TASk"  
+    ansible.builtin.debug:
+    msg: "Hi {{NAME}}"    
+
+
+# Varaiable preference Output
+#
