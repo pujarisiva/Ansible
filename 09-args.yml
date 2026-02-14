@@ -4,4 +4,4 @@
   tasks:
    - name: print the args
      ansible.built.debug:
-      msg: "Hi {{NAME}}, This is for the args value"
+      msg: "Hi {{ NAME }}, This is for the args value"
